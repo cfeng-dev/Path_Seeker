@@ -12,7 +12,7 @@ To run the MATLAB code in this project, the following toolboxes are required:
 
 ## Project Description
 
-The RL environment consists of a 4x3 grid with 12 states, where the agent's goal is to navigate to the target state (s12) to receive a reward of +1. Two states represent holes (s5, s7) giving a reward of -1 (penalty) when entered, and all other non-terminal states have no immediate reward.
+The RL environment consists of a 3x4 grid with 12 states, where the agent's goal is to navigate to the target state (s12) to receive a reward of +1. Two states represent holes (s5, s7) giving a reward of -1 (penalty) when entered, and all other non-terminal states have no immediate reward.
 
 Movement decisions are stochastic, with an 80% probability of moving in the chosen direction and a 20% combined chance of moving orthogonally. Colliding with a wall keeps the agent in its current state without moving. The agent starts from state s1 and can move in four directions: left (a1), down (a2), right (a3), and up (a4).
 
